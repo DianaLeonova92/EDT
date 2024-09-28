@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acdc9189-89bb-4013-aa0d-943626192add">
+  <producedTypes>
+    <objectType typeId="dc444ea4-9656-4000-ac25-0f9f868a1b7d" valueTypeId="65ee9cae-f52c-4fdd-92eb-0c72d1a6cd81"/>
+    <managerType typeId="909a1fb2-2f1b-42c1-94f2-9c8ec9f3815c" valueTypeId="4f240777-93b7-46c2-a74a-cde9007213c1"/>
+  </producedTypes>
+  <name>Задание_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задание_2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Задание_2.Form.Форма</defaultForm>
+  <attributes uuid="f365479d-2207-4d75-b6ec-241fbb0ae0b2">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9d2faf2d-9433-46d0-842f-e05f8390f8b0">
+    <name>ЧтоЕст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что ест</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e8ce9828-6b5c-4bb7-974b-288051ee3119">
+    <name>ЧтоПьёт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что пьёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4d8392ff-f653-41c5-a85f-991c83d6082b">
+    <name>БудетСНочёвкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Будет с ночёвкой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ad9f064e-71b9-4dd0-af20-90809a4a3be7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8683c323-b47c-49fb-80bd-c19b236a6027">
+  <producedTypes>
+    <objectType typeId="0ae0de9c-aa6a-4bfd-a6b2-f68332e27be6" valueTypeId="d52deb8d-3fe6-4cd2-b96a-614c84161a44"/>
+    <managerType typeId="eb499890-6201-4dac-a1cc-0d963eb1d061" valueTypeId="9c93a486-7cc6-4fa3-8922-51e164bbb011"/>
+  </producedTypes>
+  <name>ПодсчетЧислаУникальныхСлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсчет числа уникальных слов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодсчетЧислаУникальныхСлов.Form.Форма</defaultForm>
+  <forms uuid="a0b445a3-7ff2-4fcd-9d4d-58d0bd98fe78">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

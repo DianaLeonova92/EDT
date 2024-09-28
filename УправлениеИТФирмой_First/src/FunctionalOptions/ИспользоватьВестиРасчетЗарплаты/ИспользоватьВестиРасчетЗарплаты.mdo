@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71fe63d9-695b-4391-b8b2-aa3878660aba">
+  <name>ИспользоватьВестиРасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать вести расчет зарплаты</value>
+  </synonym>
+  <location>Constant.ИспользоватьВестиРасчетЗарплаты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Сотрудники.Attribute.Оклад</content>
+  <content>Catalog.Сотрудники.Attribute.СтавкаЧаса</content>
+  <content>Subsystem.ВестиРасчетЗарплаты</content>
+  <content>CalculationRegister.Зарплата</content>
+  <content>ChartOfCalculationTypes.НачисленияУдержания</content>
+  <content>Document.НачислениеСписком</content>
+  <content>InformationRegister.Календарь</content>
+  <content>Document.НачислениеПоОкладу</content>
+  <content>Document.НачислениеПремииПроцентом</content>
+</mdclass:FunctionalOption>

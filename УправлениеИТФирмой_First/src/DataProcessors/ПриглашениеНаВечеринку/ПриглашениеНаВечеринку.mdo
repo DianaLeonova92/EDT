@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="380bc9dd-1d4c-4c39-b53e-78610fccebe6">
+  <producedTypes>
+    <objectType typeId="e6703df3-d5b1-41a4-95ca-0327f95aee31" valueTypeId="bde1d4d2-0aec-4368-a60b-b282fbf39146"/>
+    <managerType typeId="cf19df45-4f38-4591-a359-dbc276194a0b" valueTypeId="0bdb1edd-a0a3-4117-a8ae-56ce2a77158c"/>
+  </producedTypes>
+  <name>ПриглашениеНаВечеринку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приглашение на вечеринку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПриглашениеНаВечеринку.Form.Форма</defaultForm>
+  <attributes uuid="a729f47f-4139-4eba-9b1d-4cbcdba68ace">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9d0301e-4763-4625-a29b-a14f32d2dd8d">
+    <name>ЧтоЕст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что ест</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4f60ce49-9aeb-4193-9a64-cb17300811e2">
+    <name>ЧтоПьёт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что пьёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1e48faf-af66-43ff-900e-690da21bf577">
+    <name>БудетСНочёвкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Будет с ночёвкой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="56472752-6f12-436c-aae5-280aa1d205cc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

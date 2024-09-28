@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ab28f3e-2219-4ea5-b9d6-6875e4ccea68">
+  <producedTypes>
+    <objectType typeId="0e514b83-1741-44bb-82b4-f02fe59c29ba" valueTypeId="8565ff98-5ef1-4471-800a-aa145554f669"/>
+    <managerType typeId="a904b673-5332-4333-b6a4-834ab4fe2647" valueTypeId="0e0bb694-2fb4-4860-872b-7c4062a70ab7"/>
+  </producedTypes>
+  <name>ГенерацияСлучайногоИНН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация случайного ИНН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияСлучайногоИНН.Form.Форма</defaultForm>
+  <forms uuid="560aef88-d12d-422c-955d-3b54965fd2f5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="403fe1a2-ee2a-44a2-8dbe-cb8c5062588f">
+  <producedTypes>
+    <objectType typeId="82dc7053-3b03-409e-b653-75f22d67f0b6" valueTypeId="7bee6413-acc2-4526-8a37-139cc865102d"/>
+    <refType typeId="b71455f4-291d-40ed-99cb-e4b4a9e5a7f5" valueTypeId="d4adfea8-c7cc-4d53-b3d5-76ff98b362cb"/>
+    <selectionType typeId="f8fe7d0b-3966-4446-be7a-7241d440aa73" valueTypeId="4b4fa802-3159-4820-80c8-ad7d98778326"/>
+    <listType typeId="d9cb94b7-a5d3-4f3d-835a-79d17f3ff4de" valueTypeId="8a215ffe-8191-4731-a3db-338d19a4509d"/>
+    <managerType typeId="758d8b56-3364-4a9e-b247-565cd3ba47ad" valueTypeId="4c5d2177-5363-4783-b14c-ee1e6a9dff2b"/>
+  </producedTypes>
+  <name>Событие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Событие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Событие.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Событие.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.Событие.Form.ФормаВыбора</defaultChoiceForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="030e92f8-c8d9-476e-b833-6e09a555375a">
+    <name>ТипСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип события</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСобытий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="397c41d4-de82-497d-8c61-8e21b7b6fcea">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6f5231b-1db8-4a86-bced-7a40e78f2267">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1600ab7f-01e3-4a5e-ae2d-563571bd8485">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="422a3d04-44a3-42e0-9631-54ea0289674d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="beab7262-14ce-44b6-8a96-940c24685782">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87e11718-661c-4c8e-8814-64b019bf6cdd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

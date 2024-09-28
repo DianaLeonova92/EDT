@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99543d6a-0280-4670-8330-24ec5fc53a41">
+  <producedTypes>
+    <objectType typeId="6d90143e-123b-4f3a-9686-a5602b93ee8c" valueTypeId="1cdced46-6a20-45dc-a1fa-67a3b1e1502d"/>
+    <managerType typeId="f0d75edd-1269-4798-abc0-9efe26a29807" valueTypeId="115250e8-e36a-4bbf-9ffd-33f4ffc5ab38"/>
+  </producedTypes>
+  <name>РекомендацииПоВыходуНаУлицу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рекомендации по выходу на улицу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РекомендацииПоВыходуНаУлицу.Form.Форма</defaultForm>
+  <forms uuid="05405c3b-f589-4102-bb4d-a611b3be7ace">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1bec90-23e2-4b12-8ef5-f3a61295b359">
+  <producedTypes>
+    <objectType typeId="5c3eab1d-a5d2-4996-b2f5-89f1d3c8e279" valueTypeId="3b054342-7f97-4e5b-8a3f-1a8db2b0aa43"/>
+    <refType typeId="e51f69c1-4c0e-419c-9ede-84e5aac1f7ab" valueTypeId="2d5cc20b-0a39-4aa4-9af3-02290c60b7d6"/>
+    <selectionType typeId="ede775dc-0e20-4d2f-8785-436b9f1d7cd2" valueTypeId="216135fe-7525-4001-a9ec-a37f2d869324"/>
+    <listType typeId="c112eb1a-960f-4b47-860a-e7aba791582d" valueTypeId="6d24b0c8-bbb9-4eaf-a037-479bc7fba0f7"/>
+    <managerType typeId="54d5cfc0-c34f-40d4-adf8-f92a6f199f49" valueTypeId="370ca0d7-ea44-424e-8c1e-cfb65ac443e1"/>
+  </producedTypes>
+  <name>УстановкаЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦен.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦен.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.Цены</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9a6751f7-649e-43ef-b4fd-fcfa4a33f50f">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06cf183c-14e6-411f-b81b-d1697bcc245b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6179471b-55c5-42c1-8b2e-49a570f388b7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="090ba0e3-7f65-457e-9891-bc1416aaa47a">
+    <producedTypes>
+      <objectType typeId="564075cc-873b-4c56-a08b-f6d3f0d402ce" valueTypeId="2d4b9ba3-62d3-45a2-b4e9-8de8f3ba6df7"/>
+      <rowType typeId="86ba37ee-46d9-4903-921c-66087563b098" valueTypeId="329ae860-b4fa-4b43-ac91-1d7f33c8c724"/>
+    </producedTypes>
+    <name>Цены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <attributes uuid="03a52563-37fa-4f8e-b85e-a756512e64e1">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bf9f2bb5-813a-45cd-b9c4-b405409e51fb">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Сумма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

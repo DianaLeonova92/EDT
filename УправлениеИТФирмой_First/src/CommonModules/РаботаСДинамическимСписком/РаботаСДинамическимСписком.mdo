@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0d304cb-639d-49ad-88e7-d1fb52bed712">
+  <name>РаботаСДинамическимСписком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с динамическим списком</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

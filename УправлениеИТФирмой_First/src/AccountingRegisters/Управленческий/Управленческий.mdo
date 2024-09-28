@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e203ea50-0909-4818-b68c-f976fa78a26c">
+  <producedTypes>
+    <selectionType typeId="157c853e-cef5-4260-b900-91bf56f605fd" valueTypeId="2a233b1a-3886-42a7-beca-9b3f4377ac22"/>
+    <listType typeId="78b44975-7c03-43b7-a36c-46f454111854" valueTypeId="5dcd21e7-e3de-467a-ba82-d75419b8fc5c"/>
+    <managerType typeId="9167608c-25c0-4e5e-94ba-fef8565f81fa" valueTypeId="ffddfb40-7778-40da-993d-e76334099d31"/>
+    <recordSetType typeId="8529dfeb-9186-4932-a124-0e0363091059" valueTypeId="320a91d8-15d7-4d37-a3d0-ed0d361569e1"/>
+    <recordKeyType typeId="48ed6664-8c0f-4296-8d6a-945a2509a46e" valueTypeId="31bb7208-5b2c-42c2-adcc-eccb51384bd5"/>
+    <recordType typeId="a0570bd4-4206-4c80-b2e6-5fe4cc3f503a" valueTypeId="e65da017-1b22-4f51-8298-06b8f978f480"/>
+    <extDimensionsType typeId="1c6788f3-c07f-40f9-b693-3c538b21cf57" valueTypeId="fedb2aa3-a9d1-41e3-9ff8-bbbdcb5026c2"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f1a6c25e-7598-4875-8728-d543cd705416">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlag>
+  </resources>
+</mdclass:AccountingRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e6f13c2-a26f-440c-b17a-756447c0c8e3">
+  <name>РезультатВЗадачах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат в задачах</value>
+  </synonym>
+  <location>Constant.РезультатВЗадачах</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Task.Задача.Attribute.Результат</content>
+</mdclass:FunctionalOption>

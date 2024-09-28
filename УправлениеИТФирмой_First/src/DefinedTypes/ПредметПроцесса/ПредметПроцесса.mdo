@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8d2499d-fbd7-47eb-826f-fa2e327fa478">
+  <producedTypes>
+    <containerType typeId="040ffd8b-f944-4012-aed9-938d4b61fb7c" valueTypeId="24dd90d3-e559-468e-8b48-1f447da5a827"/>
+  </producedTypes>
+  <name>ПредметПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет процесса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    <types>CatalogRef.Упаковки</types>
+    <types>DocumentRef.НачислениеПоОкладу</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.ПоступлениеТоваровИУслуг</types>
+    <types>DocumentRef.РеализацияТоваровИУслуг</types>
+    <types>DocumentRef.НачислениеПремииПроцентом</types>
+    <types>DocumentRef.НачислениеСписком</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.ЗаказыПокупателей</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>DocumentRef.Событие</types>
+    <types>CatalogRef.Склады</types>
+    <types>DocumentRef.УстановкаЦен</types>
+    <types>CatalogRef.Номенклатура</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

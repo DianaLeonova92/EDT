@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d61d2eb5-23ad-4645-9ef8-0d5a3c832e33">
+  <producedTypes>
+    <objectType typeId="6b47490f-c674-4dbc-bb7e-6a064adbd59a" valueTypeId="72bd76c4-76c5-4ecd-9f97-f4cd600be68b"/>
+    <managerType typeId="9f45ea49-2df3-4929-98d1-a047c1e45f74" valueTypeId="5bb4d770-fb40-42aa-8b1f-3cb2023cf97a"/>
+  </producedTypes>
+  <name>ПодсчетЧислаДней</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсчет числа дней</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодсчетЧислаДней.Form.Форма</defaultForm>
+  <forms uuid="4983049b-9c55-41e7-a588-4f456d5cc570">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

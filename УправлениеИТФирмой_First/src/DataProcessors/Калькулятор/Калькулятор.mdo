@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="195cb43e-b7b6-4a09-8397-e721e8452584">
+  <producedTypes>
+    <objectType typeId="15d29e66-8904-44e6-9a41-d295020f468b" valueTypeId="91f529d5-1ff8-408d-9a59-224db89e8b8b"/>
+    <managerType typeId="1aab3229-24dc-465a-b6c8-d0bb3fb13818" valueTypeId="67752f71-ad08-433b-8c96-9682bbb9ac0b"/>
+  </producedTypes>
+  <name>Калькулятор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькулятор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Калькулятор.Form.Форма</defaultForm>
+  <attributes uuid="3e8b7cf3-92cf-4084-a361-6822476175eb">
+    <name>Память</name>
+    <synonym>
+      <key>ru</key>
+      <value>Память</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="29009c04-87c5-46ab-a8fd-feeb64ed43b8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b704f515-ed5e-4759-9698-70e9807002af">
+  <producedTypes>
+    <objectType typeId="64a5f95e-0a1e-4a0f-80d2-c1a1a2cdf6ff" valueTypeId="fc446bfc-887c-4c87-be93-9275883f5e35"/>
+    <managerType typeId="2453266a-e1b0-48ec-a30c-413724237a30" valueTypeId="f12ccb66-8d76-4d57-aa13-a215a5cdb03b"/>
+  </producedTypes>
+  <name>НестрогоеСравнениеСтрок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нестрогое сравнение строк</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НестрогоеСравнениеСтрок.Form.Форма</defaultForm>
+  <forms uuid="80676cbd-7998-4912-b169-ce9fc335f7fc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

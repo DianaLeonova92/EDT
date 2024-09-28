@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7862ddfc-56b2-4a19-b3ee-979e69ae8aa4">
+  <name>ВестиРасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сотрудники</content>
+</mdclass:Subsystem>
