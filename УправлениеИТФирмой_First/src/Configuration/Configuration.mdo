@@ -104,6 +104,7 @@
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.Событие</documents>

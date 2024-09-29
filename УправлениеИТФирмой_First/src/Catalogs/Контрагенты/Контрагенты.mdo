@@ -151,6 +151,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7cf94d29-271a-48a0-a3fe-8282e8e4010d">
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f492801a-a915-4dc9-b1aa-19a89f075b38">
     <producedTypes>
       <objectType typeId="d6177640-4a4e-493c-9934-2e054c0b021d" valueTypeId="19df4c6b-22c5-41f7-81d6-dee5d1dbdfc8"/>
